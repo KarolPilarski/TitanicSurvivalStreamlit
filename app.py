@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import numpy as np
-from datetime import datetime 
 
 filename = "model.h5"
 model = pickle.load(open(filename, "rb"))
